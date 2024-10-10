@@ -80,4 +80,5 @@ placeButton.onclick = function() {
 // Onclick handler for the speak button
 speakButton.onclick = function() {
   speakNow(textToSpeak);
+console.log(textToSpeak);
 };
